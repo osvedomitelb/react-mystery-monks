@@ -1,0 +1,85 @@
+@mixin nth1 {
+  width: 30%;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+
+@mixin nth2 {
+  width: 80%;
+  color: white;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+
+
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h2 {
+    font-size: 60px;
+    margin: 20px 0 20px 0;
+    span {
+      color: #ff4501;
+    }
+  }
+  p {
+    font-size: 24px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 45%;
+      margin: auto 0 auto auto;
+    }
+    form {
+      width: 35%;
+      margin: auto auto auto 0;
+      background-color: #2A2A2A;
+      padding: 0 20px;
+      p {
+        color: white;
+      }
+      :nth-child(2) {
+        @include nth1;
+      }
+      :nth-child(3) {
+        @include nth1;
+      }
+      :nth-child(4) {
+        @include nth2;
+      }
+      :nth-child(5) {
+        @include nth2;
+      }
+      :nth-child(6) {
+        @include nth2;
+      }
+      :nth-child(7) {
+        margin: 20px 0;
+        color: white;
+        padding: 10px;
+        background-color: #2A2A2A;
+        border: 1px solid white;
+      }
+      :nth-child(7):hover {
+        color: #ff4501;
+        border-color: #ff4501;
+        transition: 1s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
+}

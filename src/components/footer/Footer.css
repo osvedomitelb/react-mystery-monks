@@ -1,0 +1,61 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #484343;
+}
+footer hr {
+  color: white;
+  height: 2px;
+  width: 99%;
+}
+footer .footerSectionOne {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: auto;
+  width: 80%;
+}
+footer .footerSectionOne .footerSectionOneOne h3 {
+  color: gray;
+}
+footer .footerSectionOne .footerSectionOneOne img {
+  width: 20px;
+  height: 20px;
+  margin: 20px 10px 10px 10px;
+}
+footer .footerSectionOne .footerSectionOneTwo {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  color: white;
+}
+footer .footerSectionOne .footerSectionOneTwo h3 {
+  color: gray;
+}
+footer .footerSectionOne .footerSectionOneTwo li {
+  list-style: none;
+  font-size: 12px;
+  opacity: 0.8;
+}
+footer .footerSectionOne .footerSectionOneThree {
+  align-items: center;
+}
+footer .footerSectionOne .footerSectionOneThree h3 {
+  color: gray;
+}
+footer .footerSectionOne .footerSectionOneThree p {
+  color: white;
+}
+footer .footerSectionTwo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+footer .footerSectionTwo span:nth-child(1) {
+  margin: 10px 0 10px 50px;
+}
+footer .footerSectionTwo span:nth-child(2) {
+  margin: 10px 50px 10px 0;
+}
+
+/*# sourceMappingURL=Footer.css.map */

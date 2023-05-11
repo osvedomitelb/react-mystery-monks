@@ -1,0 +1,38 @@
+.sectionFour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  h2 {
+    font-size: 60px;
+    margin: 20px 0 20px 0;
+    color: #ff4501;
+  }
+  span {
+    font-size: 24px;
+    color: purple;
+  }
+  section {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    div {
+      width: 20%;
+      text-align: center;
+      margin-top: 30px;
+      h2 {
+        color: purple;
+      }
+      span {
+        font-size: 16px;
+        color: black;
+      }
+      p {
+        font-weight: 600;
+
+      }
+    }
+  }
+}

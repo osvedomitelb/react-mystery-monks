@@ -1,0 +1,53 @@
+.sectionFive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.sectionFive h2 {
+  font-size: 60px;
+  margin: 20px 0 20px 0;
+  color: #ff4501;
+}
+.sectionFive span {
+  font-size: 24px;
+  color: purple;
+}
+.sectionFive section {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+}
+.sectionFive section div {
+  width: 20%;
+  margin-top: 30px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.sectionFive section div img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+.sectionFive section div h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  align-items: center;
+}
+.sectionFive section div:nth-child(1) {
+  background-color: purple;
+  color: white;
+}
+.sectionFive section div:nth-child(1) img {
+  background-color: purple;
+}
+.sectionFive section div:nth-child(1) h2 {
+  color: white;
+}
+
+/*# sourceMappingURL=SectionFive.css.map */

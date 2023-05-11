@@ -1,0 +1,31 @@
+.sectionSeven {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+  background-image: url("../../../assets/sectionEightBackground.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.sectionSeven h2 {
+  font-size: 36px;
+  color: black;
+}
+.sectionSeven button {
+  width: 100px;
+  margin-bottom: 40px;
+  color: white;
+  background-color: #ff4501;
+  border: 1px solid #ff4501;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sectionSeven button:hover {
+  color: #ff4501;
+  background-color: white;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=SectionSeven.css.map */
