@@ -9,6 +9,7 @@ import SectionSeven from './sectionSeven/SectionSeven';
 const Main = (props) => {
     return (
         <main>
+
             <SectionOne sectionOneData={props.section1ToProps.img}/>
             <SectionTwo sectionTwoData={props.section2ToProps.images}/>
             <SectionThree S3Links={props.section3ToProps.links}
