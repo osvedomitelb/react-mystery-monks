@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-mystery-monks.git/static/css/main.c4e71086.css",
+    "main.js": "/react-mystery-monks.git/static/js/main.5e42ed3a.js",
+    "static/media/liveShoot.mp4": "/react-mystery-monks.git/static/media/liveShoot.a16bf3086aa9c2197135.mp4",
+    "static/media/productExplainerVideo.mp4": "/react-mystery-monks.git/static/media/productExplainerVideo.6ae908dc76cf4efe6b47.mp4",
+    "static/media/whiteBoadExplainerVideo.mp4": "/react-mystery-monks.git/static/media/whiteBoadExplainerVideo.fb433f5ae13446f22768.mp4",
+    "static/media/animatedExplainerVideo.mp4": "/react-mystery-monks.git/static/media/animatedExplainerVideo.5b80a9773ae792918502.mp4",
+    "static/media/sectionThreeEight.png": "/react-mystery-monks.git/static/media/sectionThreeEight.93627d6192ee8afc845a.png",
+    "static/media/sectionThreeTwo.png": "/react-mystery-monks.git/static/media/sectionThreeTwo.97a998968347a9a217ef.png",
+    "static/media/sectionThreeFive.png": "/react-mystery-monks.git/static/media/sectionThreeFive.d63e679d551a6b59e292.png",
+    "static/media/sectionThreeSix.png": "/react-mystery-monks.git/static/media/sectionThreeSix.e627b372fc13341b9e51.png",
+    "static/media/sectionThreeThree.png": "/react-mystery-monks.git/static/media/sectionThreeThree.1d9e3a0eb199017d0228.png",
+    "static/media/section_one_background.png": "/react-mystery-monks.git/static/media/section_one_background.16ab40ea7728e1bb41a6.png",
+    "static/media/sectionThreeOne.png": "/react-mystery-monks.git/static/media/sectionThreeOne.535d30e8d27ea62b82de.png",
+    "static/media/sectionThreeSeven.png": "/react-mystery-monks.git/static/media/sectionThreeSeven.b6db7a5f13b5131b9c35.png",
+    "static/media/sectionEightBackground.jpg": "/react-mystery-monks.git/static/media/sectionEightBackground.06e38ea88597dd2084e4.jpg",
+    "static/media/sectionThreeFour.png": "/react-mystery-monks.git/static/media/sectionThreeFour.88eff27454fcfb8216df.png",
+    "static/media/facebook.jpg": "/react-mystery-monks.git/static/media/facebook.5049435660621094e080.jpg",
+    "static/media/instagram.jpg": "/react-mystery-monks.git/static/media/instagram.f870f8e8768b85b8d84b.jpg",
+    "index.html": "/react-mystery-monks.git/index.html",
+    "main.c4e71086.css.map": "/react-mystery-monks.git/static/css/main.c4e71086.css.map",
+    "main.5e42ed3a.js.map": "/react-mystery-monks.git/static/js/main.5e42ed3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4e71086.css",
+    "static/js/main.5e42ed3a.js"
+  ]
+}
