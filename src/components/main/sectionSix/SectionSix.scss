@@ -1,0 +1,73 @@
+.sectionSix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 60px;
+    margin: 20px 0 20px 0;
+    color: #ff4501;
+  }
+  div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px 0;
+    height: fit-content;
+    vertical-align: center;
+  }
+  .sectionSixInfoEl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 10px;
+    h3 {
+      font-size: 24px;
+    }
+    span {
+      font-size: 12px;
+    }
+    button {
+      width: 100px;
+      margin-top: 20px;
+      color: white;
+      background-color: #ff4501;
+      border: 1px solid #ff4501;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    button:hover {
+      color: #ff4501;
+      background-color: white;
+      transition: 1s ease-in-out;
+      cursor: pointer;
+    }
+  }
+  video {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .sectionSix {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    h2 {
+      width: 100%;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      max-width: 400px;
+
+    }
+  }
+
+
+
+}

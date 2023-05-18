@@ -1,0 +1,102 @@
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sectionOne h2 {
+  font-size: 60px;
+  margin: 20px 0 20px 0;
+}
+.sectionOne h2 span {
+  color: #ff4501;
+}
+.sectionOne p {
+  font-size: 24px;
+}
+.sectionOne div {
+  display: flex;
+  justify-content: center;
+}
+.sectionOne div img {
+  width: 45%;
+  margin: auto 0 auto auto;
+}
+.sectionOne div form {
+  width: 35%;
+  margin: auto auto auto 0;
+  background-color: #2A2A2A;
+  padding: 0 20px;
+}
+.sectionOne div form p {
+  color: white;
+}
+.sectionOne div form :nth-child(2) {
+  width: 30%;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+.sectionOne div form :nth-child(3) {
+  width: 30%;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+.sectionOne div form :nth-child(4) {
+  width: 80%;
+  color: white;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+.sectionOne div form :nth-child(5) {
+  width: 80%;
+  color: white;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+.sectionOne div form :nth-child(6) {
+  width: 80%;
+  color: white;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: #2A2A2A;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+.sectionOne div form :nth-child(7) {
+  margin: 20px 0;
+  color: white;
+  padding: 10px;
+  background-color: #2A2A2A;
+  border: 1px solid white;
+}
+.sectionOne div form :nth-child(7):hover {
+  color: #ff4501;
+  border-color: #ff4501;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=SectionOne.css.map */

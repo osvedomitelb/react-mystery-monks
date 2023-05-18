@@ -1,0 +1,39 @@
+.sectionFour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.sectionFour h2 {
+  font-size: 60px;
+  margin: 20px 0 20px 0;
+  color: #ff4501;
+}
+.sectionFour span {
+  font-size: 24px;
+  color: purple;
+}
+.sectionFour section {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+}
+.sectionFour section div {
+  width: 20%;
+  text-align: center;
+  margin-top: 30px;
+}
+.sectionFour section div h2 {
+  color: purple;
+}
+.sectionFour section div span {
+  font-size: 16px;
+  color: black;
+}
+.sectionFour section div p {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=SectionFour.css.map */
